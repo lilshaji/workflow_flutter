@@ -26,7 +26,6 @@ A Flutter application built with GetX for state management, featuring Google Sig
 ```
 workflow_flutter/
 ├── android/          # Android platform files
-├── ios/              # iOS platform files
 ├── web/              # Web platform files
 ├── assets/
 │   └── images/       # Image assets
@@ -65,7 +64,7 @@ workflow_flutter/
 1. **Run the app**
    
    ```bash
-   # Android / iOS
+   # Android
    flutter run
    
    # Web
@@ -77,9 +76,6 @@ workflow_flutter/
 ```bash
 # Android APK
 flutter build apk --release
-
-# iOS
-flutter build ios --release
 
 # Web
 flutter build web
@@ -110,8 +106,8 @@ flutter test
 
 ## Acknowledgements
 
-Originally forked from [Neeraj-SD/workflow_flutter](https://github.com/Neeraj-SD/workflow_flutter).
-
+Originally forked from [Neeraj-SD/workflow_flutter](https://github.com/Neeraj-SD/workflow_flutter)
+as part of our third year Mini Project during our BTech in Computer Science and Engineering
 ## Resources
 
 - [Flutter Documentation](https://docs.flutter.dev/)
